@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="CSS/registerstyle.css">
+    <script>
+	
+	//Check password is match to confirm password
+        function validateForm() {
+            var password = document.getElementById("password").value;
+            var confirmPassword = document.getElementById("confirmpassword").value;
+            
+            if (password !== confirmPassword) {
+                alert("Password and Confirm Password do not match.");
+                return false;
+            }
+            
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Register</h1>
+        <form action="register.php" method="POST" onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <label for="confirmpassword">Confirm Password:</label>
+            <input type="password" id="confirmpassword" name="confirmpassword" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone">
+            
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address">
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" placeholder="YYYY-MM-DD" required>
+            
+            <label for="nationality">Nationality:</label>
+            <input type="text" id="nationality" name="nationality">
+            
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            
+            <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="login.php">Login</a></p>
+    </div>
+</body>
+</html>

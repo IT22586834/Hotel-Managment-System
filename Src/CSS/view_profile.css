@@ -1,0 +1,35 @@
+        body {
+            background-image: url("../Image/profile_background.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+         }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .label {
+            font-weight: bold;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 8px;
+            border: none;
+            background-color: #f7f7f7;
+            readonly: true;
+        }
+
+        .edit-button {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            padding: 8px;
+        }
+    

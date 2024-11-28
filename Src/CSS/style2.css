@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f1f1f1;
+  }
+  
+ 
+  header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .mlogo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .prologo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .buttonset {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .language {
+    width: 100px;
+    margin-right: 10px;
+  }
+  
+  .button1,
+  .button2 {
+    background-color: #4f72a1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+
+    
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box; 
+  }
+  
+  .button1:hover,
+  .button2:hover,
+  .button3:hover {
+    background-color: #45a049;
+  }
+  
+ 
+  .searchform {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  .hotellogo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .hotelserach {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #check-in,
+  #check-out {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  #demo {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .search {
+    width: 30px;
+    height: 30px;
+  }
+  .button3 {
+    background-color: #4f72a1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box; 
+    
+  }

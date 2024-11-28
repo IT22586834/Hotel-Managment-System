@@ -1,0 +1,149 @@
+.mlogo{
+    width: 100px;
+    height: 100px;
+}
+.banner1{
+
+  width: 50%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.banner2{
+
+    width: 50%;
+    height: auto;
+  }
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button1{
+    width:100px;
+    height: 20px;
+    float:right;
+    margin: 5px;
+}
+.button2{
+    width:100px;
+    height: 20px;
+    float:right;
+    margin: 5px;
+}
+.prologo{
+    width:70px;
+    height: 70px;
+    float:right;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+.language{
+    width:100px;
+    height: 20px;
+    margin: 5px;
+    float:right;
+}
+.hotellogo{
+    width: 16px;
+    height: 16px;
+}
+.hotelserach{
+    width:250px;
+    height: 15px;
+
+}
+.des{
+    text-align: center;
+    background-image:url("D:\SLIIT\SLIIT\Sem 2\Assignments\Hotel Reservation System Web\Src\Image\bar.png");
+    background-repeat: no-repeat, repeat;
+}
+.search{
+    width: 15px;
+    height: 15px;
+}
+
+.headertext{
+    text-align: center;
+}
+
+header{
+    background: #a4b44867;
+}
+.hotel1{
+    width: 50% ;
+    height: 400px ;
+}
+.hotel2{
+    width: 50% ;
+    height: 400px ;
+}
+
+.bodytext1{
+    font-weight: bold;
+    font-size: larger;
+    
+}
+.bodytext2{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+.topimgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top1{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.top2{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.top3{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.top4{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.destext{
+    text-align: justify;
+    font-size: larger;
+}
+
+.footer{
+  margin: 3pc;
+  width: auto;
+  border: 1px solid green;
+  text-align: right;
+}
+
+.hotel1i{
+    width: 400px;
+    height: 300px;
+}
+.select button{
+    background-color: #5f8fff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style2.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <script src="JS/Javascript.js"></script>
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img src="Image/Logo.png" class="mlogo" alt="Logo">
+        </a>
+        <a href="view_profile.php">
+        <img src="Image/Profile.png" class="prologo">
+        </a>
+        <div class="buttonset">
+            <select name="language" class="language">
+                <option value="English">English</option>
+                <option value="Russia">Русский</option>
+                <option value="Spanish">Español</option>
+                <option value="Japanese">日本語</option>
+            </select>
+            <a href="Contact Us.html">
+                <button class="button2">Contact Us</button>
+            </a>
+            <a href="About Us.html">
+                <button class="button1">About us</button>
+            </a>
+            <a href="login.php">
+                <button class="button1">Login</button>
+            </a>
+            <a href="bookings.php">
+                <button class="button1">Your Bookings</button>
+            </a>
+            
+        </div>
+    </header>
+    <br>
+    <div class="des">
+        <form action="hotelResult.php" method="get" class="searchform">
+            <label for="hotelserach">
+                <img src="Image/hotel.png" class="hotellogo">
+            </label>
+            <input type="text" name="hotel_name" class="hotelserach" placeholder="Look your Desired Destination Here" required>
+            <label for="check-in">Check-in</label>
+            <input type="date" id="check-in" name="check-in" min="date" required>
+            <label for="check-out">Check-Out</label>
+            <input type="date" id="check-out" name="check-out" required>
+            <button type="submit" id="demo"><img src="Image/search.png" class="search"></button>
+        </form>
+    </div>
+    <br>
+    <div class="bodytext1">Suggestions For You</div><br>
+    <hr>
+    <div class="topimgs">
+        <img src="Image/squareimg.jpg" class="top1">
+        <img src="Image/squareimg2.jpg" class="top2">
+        <img src="Image/squareimg3.jpg" class="top3">
+        <img src="Image/images.jpg" class="top4">
+    </div>
+    <br>
+    <div class="bodytext2">Promotions / Deals and special offer for you</div><br>
+    <div class="banner">
+        <img src="Image/banner2.png" class="banner1">
+        <img src="Image/banner3.png" class="banner2">
+    </div>
+    <br>
+    <div class="destext">
+        Hanami is a user-friendly hotel reservation system designed for tourists. It offers an extensive database of hotels worldwide, allowing users to search based on destination, dates, and budget. The system provides detailed hotel information and secure booking processes. Hanami offers customization options, easy reservation management, and may include additional features like flight booking integration and local recommendations. It simplifies the hotel booking process for a convenient and enjoyable travel experience.
+    </div>
+    <hr>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Support & FAQS</h4>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="contact us.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Policies</h4>
+                <ul>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Other Information</h4>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="About us.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <img src="Image/Social.png" class="social" alt="Social" align="center" width="250px" 250px height="30px">
+        </div>
+        <br>
+        <center><div class="footer-text"><br>2023 Hanami. All Rights Reserved</div></center>
+    </footer>
+    
+</body>
+</html>
